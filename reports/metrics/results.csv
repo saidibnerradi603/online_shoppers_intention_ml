@@ -1,0 +1,13 @@
+Dataset,Model,Best Params,CV Best F1,Test F1
+Original Imbalanced,Logistic Regression,"{'C': 10, 'penalty': 'l2', 'solver': 'lbfgs'}",0.4986061968077933,0.5148861646234676
+Original Imbalanced,Random Forest,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 200}",0.6513775125685903,0.6676300578034682
+Original Imbalanced,Decision Tree,"{'max_depth': 5, 'min_samples_split': 2}",0.6402483212506185,0.6666666666666666
+SMOTE,Logistic Regression,"{'C': 10, 'penalty': 'l2', 'solver': 'liblinear'}",0.8266118889859626,0.6463963963963963
+SMOTE,Random Forest,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}",0.9309728540898004,0.6666666666666666
+SMOTE,Decision Tree,"{'max_depth': 10, 'min_samples_split': 5}",0.9017984624651438,0.6
+ADASYN,Logistic Regression,"{'C': 1, 'penalty': 'l2', 'solver': 'lbfgs'}",0.8098327619934155,0.6244813278008299
+ADASYN,Random Forest,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}",0.9324000072707032,0.6704675028506272
+ADASYN,Decision Tree,"{'max_depth': 10, 'min_samples_split': 2}",0.8969179947938889,0.5992141453831041
+Random Oversampler,Logistic Regression,"{'C': 1, 'penalty': 'l2', 'solver': 'liblinear'}",0.8032636216591958,0.6468646864686468
+Random Oversampler,Random Forest,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}",0.9646083142148928,0.6640106241699867
+Random Oversampler,Decision Tree,"{'max_depth': None, 'min_samples_split': 2}",0.9524700353420276,0.5822454308093995
